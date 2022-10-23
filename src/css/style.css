@@ -1,0 +1,26 @@
+
+.inputTextArea,.TodoList {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 375px;
+}
+input[type="text"] {
+    width: 375px;
+    padding: 0.5em;
+}
+.Task {
+    background: white;
+    width: 30em;
+    color: black;
+    padding: 1em;
+    box-shadow: 0px 1px 5px 5px rgb(189 188 188 / 42%);
+    -webkit-box-shadow: 0px 1px 5px 5px rgb(189 188 188 / 42%);
+    -moz-box-shadow: 0px 1px 5px 5px rgba(189,188,188,0.42);
+    margin-top: 2em;
+    position: relative;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: .4;
+}
